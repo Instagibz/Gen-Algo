@@ -13,7 +13,7 @@ struct Member {
 };
 
 struct Population {
-	std::vector<Member> Members = std::vector<Member>(5000); // this will create a population with 50k members, lets choose a lower number first to see the progress, works fine...
+	std::vector<Member> Members = std::vector<Member>(50000); // this will create a population with 50k members, lets choose a lower number first to see the progress, works fine...
 };
 
 
