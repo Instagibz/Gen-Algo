@@ -35,8 +35,8 @@ int main() {
 
 	//we will use a variable to keep track of how many generations there have been
 	int Generation = 0;
-	//our actuall work will be inside this loop, it will stop when the DNA sequence has fully evolved to the target
 
+	//our actuall work will be inside this loop, it will stop when the DNA sequence has fully evolved to the target
 	while (!SequenceFound) {
 		Generation++;
 
@@ -72,7 +72,7 @@ int main() {
 	}
 
 	std::cout << "Generation " << Generation << " Evolved to the full sequence" << std::endl;
-	Sleep(100000);
+	Sleep(2000);
 	return 0;
 }
 
